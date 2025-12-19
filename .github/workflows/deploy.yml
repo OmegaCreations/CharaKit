@@ -26,16 +26,15 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "20"
-          cache: "npm"
 
       - name: Install dependencies (root)
-        run: npm ci
+        run: npm install
 
       - name: Build library
         run: npm run build
 
       - name: Install dependencies (example)
-        run: cd example && npm ci
+        run: cd example && npm install
 
       - name: Build example
         run: cd example && npm run build

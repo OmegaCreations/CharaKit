@@ -77,7 +77,7 @@ function Navigation() {
           </Box>
 
           <Button
-            href="https://github.com/yourusername/react-avatar-maker"
+            href="https://github.com/OmegaCreations/CharaKit"
             target="_blank"
             rel="noopener noreferrer"
             variant="outlined"
@@ -95,7 +95,7 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <Router>
+      <Router basename="/CharaKit">
         <Box
           sx={{
             minHeight: "100vh",

@@ -168,7 +168,7 @@ export function Demo() {
       >
         <Container maxWidth="lg">
           <Typography variant="h1" gutterBottom sx={{ fontWeight: 700 }}>
-            Catar
+            CharaKit
           </Typography>
           <Typography variant="h2" gutterBottom sx={{ fontWeight: 500 }}>
             The React Avatar/Character Maker

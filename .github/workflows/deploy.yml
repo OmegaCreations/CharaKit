@@ -27,13 +27,7 @@ jobs:
         with:
           node-version: "20"
 
-      - name: Install dependencies (root)
-        run: npm install
-
-      - name: Build library
-        run: npm run build
-
-      - name: Install dependencies (example)
+      - name: Install dependencies
         run: cd example && npm install
 
       - name: Build example

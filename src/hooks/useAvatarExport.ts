@@ -11,7 +11,9 @@ import { uploadCanvas } from "../utils/upload";
 /**
  * Hook for exporting and uploading avatars
  */
-export function useAvatarExport(canvasRef: RefObject<HTMLCanvasElement>) {
+export function useAvatarExport(
+  canvasRef: RefObject<HTMLCanvasElement | null>
+) {
   const exportingRef = useRef(false);
 
   /**

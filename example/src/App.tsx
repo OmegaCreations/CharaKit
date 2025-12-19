@@ -21,7 +21,8 @@ import { theme } from "./theme";
 function Navigation() {
   const location = useLocation();
 
-  const isActive = (path: string) => location.pathname === path;
+  const currentPath = location.hash.split("?")[0].replace("#", "") || "/";
+  const isActive = (path: string) => currentPath === path;
 
   return (
     <AppBar

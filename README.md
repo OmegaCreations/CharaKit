@@ -1,3 +1,7 @@
+# Demo
+
+https://omegacreations.github.io/CharaKit/#/
+
 # React Character Maker
 
 A flexible, customizable character creation library for React applications. Build profile pictures, character creators, RPG avatars, pixel art characters, and more with ease.

@@ -35,6 +35,7 @@ export const rpgConfig: AvatarMakerConfig = {
   height: 64,
   mode: "full",
   preset: "rpg-avatar",
+  pixelScale: 7,
   features: {
     allowToggle: true,
     multipleSheets: true,

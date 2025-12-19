@@ -11,7 +11,7 @@ import {
   Alert,
   Link as MuiLink,
 } from "@mui/material";
-import { Code as CodeIcon, Info as InfoIcon } from "@mui/icons-material";
+import { Code as CodeIcon } from "@mui/icons-material";
 
 export function Documentation() {
   const CodeBlock = ({

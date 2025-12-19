@@ -43,7 +43,7 @@ export function Configurator() {
   const [exportScale, setExportScale] = useState(1);
   const [backgroundColor, setBackgroundColor] = useState("");
 
-  const { download, exportAsDataURL } = useAvatarExport(canvasRef);
+  const { download } = useAvatarExport(canvasRef);
 
   // Generate config
   const config: AvatarMakerConfig = {
@@ -118,10 +118,6 @@ export function Configurator() {
     if (!part || !part.spriteSheets) return null;
 
     const currentSel = selection[category];
-    const sheetIndex =
-      currentSel && typeof currentSel === "object" && "sheetIndex" in currentSel
-        ? currentSel.sheetIndex
-        : 0;
 
     return (
       <div className="part-selector" key={category}>

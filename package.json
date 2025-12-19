@@ -2,12 +2,14 @@
   "name": "react-avatar-maker",
   "version": "1.0.0",
   "type": "module",
-  "description": "A customizable React library for creating character/avatar makers with sprite sheets",
+  "description": "A flexible, customizable React library for creating pixel-perfect character avatars with sprite sheets. Perfect for games, social platforms, and creative applications.",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
   "files": [
-    "dist"
+    "dist",
+    "README.md",
+    "LICENSE"
   ],
   "scripts": {
     "build": "rollup -c",
@@ -21,10 +23,27 @@
     "character",
     "maker",
     "sprite",
-    "customization"
+    "customization",
+    "pixel-art",
+    "rpg",
+    "character-creator",
+    "avatar-generator",
+    "sprite-sheet",
+    "canvas",
+    "game-dev",
+    "profile-picture",
+    "typescript"
   ],
-  "author": "",
+  "author": "Your Name <your.email@example.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/react-avatar-maker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/react-avatar-maker/issues"
+  },
+  "homepage": "https://github.com/yourusername/react-avatar-maker#readme",
   "peerDependencies": {
     "react": "^16.8.0 || ^17.0.0 || ^18.0.0",
     "react-dom": "^16.8.0 || ^17.0.0 || ^18.0.0"

@@ -1,6 +1,6 @@
 {
   "name": "react-avatar-maker",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "type": "module",
   "description": "A flexible, customizable React library for creating pixel-perfect character avatars with sprite sheets. Perfect for games, social platforms, and creative applications.",
   "main": "dist/index.js",

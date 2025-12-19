@@ -35,7 +35,7 @@ export const rpgConfig: AvatarMakerConfig = {
   height: 64,
   mode: "full",
   preset: "rpg-avatar",
-  pixelScale: 7, // Scale up pixel art 3x for better visibility without losing quality
+  pixelScale: 7, // Scale up pixel art 7x for better visibility without losing quality
   features: {
     allowToggle: true,
     multipleSheets: true,

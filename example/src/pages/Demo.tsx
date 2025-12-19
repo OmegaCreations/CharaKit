@@ -171,7 +171,7 @@ export function Demo() {
             CharaKit
           </Typography>
           <Typography variant="h2" gutterBottom sx={{ fontWeight: 500 }}>
-            The React Avatar/Character Maker
+            The React library for Avatar/Character Maker
           </Typography>
           <Typography variant="h5" sx={{ mb: 4, opacity: 0.95 }}>
             A flexible, customizable avatar/character creation open-source

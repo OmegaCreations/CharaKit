@@ -600,10 +600,10 @@ await copyConfigToClipboard(config);`}
                 primary="GitHub Repository"
                 secondary={
                   <MuiLink
-                    href="https://github.com/yourusername/react-avatar-maker"
+                    href="https://github.com/OmegaCreations/CharaKit"
                     target="_blank"
                   >
-                    https://github.com/yourusername/react-avatar-maker
+                    https://github.com/OmegaCreations/CharaKit
                   </MuiLink>
                 }
               />
@@ -613,7 +613,7 @@ await copyConfigToClipboard(config);`}
                 primary="Report Issues"
                 secondary={
                   <MuiLink
-                    href="https://github.com/yourusername/react-avatar-maker/issues"
+                    href="https://github.com/OmegaCreations/CharaKit/issues"
                     target="_blank"
                   >
                     GitHub Issues
@@ -626,7 +626,7 @@ await copyConfigToClipboard(config);`}
                 primary="Discussions"
                 secondary={
                   <MuiLink
-                    href="https://github.com/yourusername/react-avatar-maker/discussions"
+                    href="https://github.com/OmegaCreations/CharaKit/discussions"
                     target="_blank"
                   >
                     GitHub Discussions

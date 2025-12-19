@@ -34,16 +34,16 @@
     "profile-picture",
     "typescript"
   ],
-  "author": "Your Name <your.email@example.com>",
+  "author": "OmegaCreations",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/react-avatar-maker.git"
+    "url": "https://github.com/OmegaCreations/CharaKit.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/react-avatar-maker/issues"
+    "url": "https://github.com/OmegaCreations/CharaKit/issues"
   },
-  "homepage": "https://github.com/yourusername/react-avatar-maker#readme",
+  "homepage": "https://omegacreations.github.io/CharaKit/",
   "peerDependencies": {
     "react": "^16.8.0 || ^17.0.0 || ^18.0.0",
     "react-dom": "^16.8.0 || ^17.0.0 || ^18.0.0"

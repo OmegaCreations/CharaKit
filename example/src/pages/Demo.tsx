@@ -186,7 +186,7 @@ export function Demo() {
             <Button
               variant="contained"
               size="large"
-              href="/configurator"
+              href="/CharaKit/#/configurator"
               sx={{
                 bgcolor: "white",
                 color: "primary.main",
@@ -198,7 +198,7 @@ export function Demo() {
             <Button
               variant="outlined"
               size="large"
-              href="/docs"
+              href="/CharaKit/#/docs"
               sx={{
                 borderColor: "white",
                 color: "white",
